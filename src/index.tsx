@@ -4,9 +4,7 @@ import './index.css';
 import App from './pages/App';
 import * as serviceWorker from './serviceWorker';
 
-import './fonts/CinzelDecorative-Regular.ttf';
-import './fonts/CinzelDecorative-Bold.ttf';
-import './fonts/CinzelDecorative-Black.ttf';
+import './fonts/Philosopher-Regular.ttf';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -1,22 +1,37 @@
 
 #fullLogo .title {
-  font-family: 'CinzelDecorative';
+  font-family: 'Philosopher';
+  color: #c62828;
   display: flex;
   place-items: flex-end;
+  font-weight: 600;
 }
 
 #fullLogo img {
-  width: 4rem;
-  padding: 0 .4rem;
+  width: 3.2rem;
 }
 
 #shortLogo .title {
-  font-family: 'CinzelDecorative';
+  font-family: 'Philosopher';
   font-size: 3.5rem;
+  font-weight: 500;
+  color: #c62828;
+}
+
+#shortLogo {
+  display: flex;
+  width: 4.1rem;
+  height: 5.5rem;
 }
 
 #shortLogo img {
   width: 2.3rem;
-  margin-left: -.5rem;
-  margin-right: .3rem;
+  position: relative;
+  bottom: .6rem;
+  right: 3.2rem;
+}
+
+
+#shortLogo :nth-child(2) {
+  transform: scale(-1, 1)
 }
