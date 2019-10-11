@@ -1,0 +1,22 @@
+
+#fullLogo .title {
+  font-family: 'CinzelDecorative';
+  display: flex;
+  place-items: flex-end;
+}
+
+#fullLogo img {
+  width: 4rem;
+  padding: 0 .4rem;
+}
+
+#shortLogo .title {
+  font-family: 'CinzelDecorative';
+  font-size: 3.5rem;
+}
+
+#shortLogo img {
+  width: 2.3rem;
+  margin-left: -.5rem;
+  margin-right: .3rem;
+}
