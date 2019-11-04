@@ -1,7 +1,8 @@
 import React from 'react';
 import './Logo.css';
 
-import solidDice from '../../assets/solid-dice.svg';
+import fullLogo from '../../assets/logo-long.png';
+import logoShort from '../../assets/logo-short.png';
 
 type LogoProps = {
   short?: boolean;
@@ -10,15 +11,11 @@ type LogoProps = {
 const Logo = ({ short }: LogoProps) => {
   return short ? (
     <div id="shortLogo">
-      <h1 className="title">T</h1>
-      <h1 className="title">T</h1>
-      <img src={solidDice} />
+      <img src={logoShort} />
     </div>
   ) : (
     <div id="fullLogo">
-      <h1 className="title">
-        Tyrant's <img src={solidDice} /> Table
-      </h1>
+      <img src={fullLogo} />
     </div>
   );
 };
